@@ -1,0 +1,42 @@
+/*---------------------------------------
+GENERAL 
+---------------------------------------*/
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+}
+
+/* CSS for Anchor text - for links */
+a {
+  color: #0563bb;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* CSS for hover effect */
+a:hover {
+  color: #067ded;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+/*---------------------------------------
+ SECTIONS GENERAL 
+---------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
