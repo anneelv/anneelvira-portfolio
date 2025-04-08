@@ -15,9 +15,7 @@ export default async function Resume() {
       <div className="container">
         <SectionTitle
           title="Resume"
-          brief="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-              AAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-              AAAAAAAAAAAAAAAAAAAAAAAAAA."
+          brief="A detailed overview of my education, professional experience, and part-time roles that have shaped my skills and career journey."
         />
         <div className="row">
           <div className="col-lg-6">
@@ -33,8 +31,47 @@ export default async function Resume() {
                   details: [string];
                 }) => <ResumeItem key={item.id} item={item} />
               )}
+
+            <h3 className="resume-title">{items[1].category}</h3>
+            {items &&
+              items.length > 0 &&
+              items[1].content.map(
+                (item: {
+                  id: number;
+                  title: string;
+                  period: string;
+                  brief: string;
+                  details: [string];
+                }) => <ResumeItem key={item.id} item={item} />
+              )}
+
+            <h3 className="resume-title">{items[3].category}</h3>
+            {items &&
+              items.length > 0 &&
+              items[3].content.map(
+                (item: {
+                  id: number;
+                  title: string;
+                  period: string;
+                  brief: string;
+                  details: [string];
+                }) => <ResumeItem key={item.id} item={item} />
+              )}
           </div>
-          <div className="col-lg-6"></div>
+          <div className="col-lg-6">
+            <h3 className="resume-title">{items[2].category}</h3>
+            {items &&
+              items.length > 0 &&
+              items[2].content.map(
+                (item: {
+                  id: number;
+                  title: string;
+                  period: string;
+                  brief: string;
+                  details: [string];
+                }) => <ResumeItem key={item.id} item={item} />
+              )}
+          </div>
         </div>
       </div>
     </section>

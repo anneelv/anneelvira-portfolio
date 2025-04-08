@@ -17,7 +17,7 @@ export default function Nav() {
     <nav id="navbar" className="navbar nav-menu">
       <ul>
         {navList.map((nav) => (
-          <li>
+          <li key={nav.id}>
             <a
               onClick={() => handleScrollTo(nav.target)}
               className={`nav-link scrollto ${
