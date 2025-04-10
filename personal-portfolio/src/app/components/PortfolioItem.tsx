@@ -27,7 +27,7 @@ export default function PortfolioItem({
   return (
     <div className="col-lg-4 col-md-6 portfolio-item">
       <div className="portfolio-wrap">
-        <img src={item.img} className="image-fluid" alt={item.title} />
+        <img src={item.img} className="img-fluid" alt={item.title} />
         <div className="portfolio-info">
           <h4>{item.title}</h4>
           <p>{item.brief}</p>

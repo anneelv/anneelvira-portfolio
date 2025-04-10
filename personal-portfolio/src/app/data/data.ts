@@ -167,6 +167,36 @@ export const resume = [
 ];
 
 /*---------------------------------------
+FILTERS
+---------------------------------------*/
+export const filters = [
+  {
+    id: 1,
+    name: "All",
+    category: "all",
+    active: true,
+  },
+  {
+    id: 2,
+    name: "App",
+    category: "app",
+    active: false,
+  },
+  {
+    id: 3,
+    name: "Web App",
+    category: "web-app",
+    active: false,
+  },
+  {
+    id: 4,
+    name: "Others",
+    category: "others",
+    active: false,
+  },
+];
+
+/*---------------------------------------
 PORTFOLIO DATA
 ---------------------------------------*/
 export const portfolioData = [
@@ -198,6 +228,58 @@ export const portfolioData = [
   },
   {
     id: 3,
+    img: "/assets/images/portfolio/BurritoKing/login-page.png",
+    gallery: [
+      "/assets/images/portfolio/BurritoKing/food-menu-page.png",
+      "/assets/images/portfolio/BurritoKing/order-page.png",
+      "/assets/images/portfolio/BurritoKing/checkout-page.png",
+      "/assets/images/portfolio/BurritoKing/login-page.png",
+    ],
+    title: "Burrito King Desktop App",
+    brief: "",
+    category: "others",
+  },
+  {
+    id: 4,
+    img: "/assets/images/portfolio/BurritoKing/login-page.png",
+    gallery: [
+      "/assets/images/portfolio/BurritoKing/food-menu-page.png",
+      "/assets/images/portfolio/BurritoKing/order-page.png",
+      "/assets/images/portfolio/BurritoKing/checkout-page.png",
+      "/assets/images/portfolio/BurritoKing/login-page.png",
+    ],
+    title: "Burrito King Desktop App",
+    brief: "",
+    category: "web-app",
+  },
+  {
+    id: 5,
+    img: "/assets/images/portfolio/BurritoKing/login-page.png",
+    gallery: [
+      "/assets/images/portfolio/BurritoKing/food-menu-page.png",
+      "/assets/images/portfolio/BurritoKing/order-page.png",
+      "/assets/images/portfolio/BurritoKing/checkout-page.png",
+      "/assets/images/portfolio/BurritoKing/login-page.png",
+    ],
+    title: "Burrito King Desktop App",
+    brief: "",
+    category: "others",
+  },
+  {
+    id: 6,
+    img: "/assets/images/portfolio/BurritoKing/login-page.png",
+    gallery: [
+      "/assets/images/portfolio/BurritoKing/food-menu-page.png",
+      "/assets/images/portfolio/BurritoKing/order-page.png",
+      "/assets/images/portfolio/BurritoKing/checkout-page.png",
+      "/assets/images/portfolio/BurritoKing/login-page.png",
+    ],
+    title: "Burrito King Desktop App",
+    brief: "",
+    category: "app",
+  },
+  {
+    id: 7,
     img: "/assets/images/portfolio/BurritoKing/login-page.png",
     gallery: [
       "/assets/images/portfolio/BurritoKing/food-menu-page.png",
