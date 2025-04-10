@@ -30,6 +30,10 @@ export const navs = [
   },
 ];
 
+/*---------------------------------------
+RESUME DATA
+---------------------------------------*/
+
 export const resume = [
   {
     id: 1,
@@ -159,5 +163,50 @@ export const resume = [
         ],
       },
     ],
+  },
+];
+
+/*---------------------------------------
+PORTFOLIO DATA
+---------------------------------------*/
+export const portfolioData = [
+  {
+    id: 1,
+    img: "/assets/images/portfolio/BurritoKing/login-page.png",
+    gallery: [
+      "/assets/images/portfolio/BurritoKing/food-menu-page.png",
+      "/assets/images/portfolio/BurritoKing/order-page.png",
+      "/assets/images/portfolio/BurritoKing/checkout-page.png",
+      "/assets/images/portfolio/BurritoKing/login-page.png",
+    ],
+    title: "Burrito King Desktop App",
+    brief: "",
+    category: "app",
+  },
+  {
+    id: 2,
+    img: "/assets/images/portfolio/BurritoKing/login-page.png",
+    gallery: [
+      "/assets/images/portfolio/BurritoKing/food-menu-page.png",
+      "/assets/images/portfolio/BurritoKing/order-page.png",
+      "/assets/images/portfolio/BurritoKing/checkout-page.png",
+      "/assets/images/portfolio/BurritoKing/login-page.png",
+    ],
+    title: "Burrito King Desktop App",
+    brief: "",
+    category: "web-app",
+  },
+  {
+    id: 3,
+    img: "/assets/images/portfolio/BurritoKing/login-page.png",
+    gallery: [
+      "/assets/images/portfolio/BurritoKing/food-menu-page.png",
+      "/assets/images/portfolio/BurritoKing/order-page.png",
+      "/assets/images/portfolio/BurritoKing/checkout-page.png",
+      "/assets/images/portfolio/BurritoKing/login-page.png",
+    ],
+    title: "Burrito King Desktop App",
+    brief: "",
+    category: "others",
   },
 ];
