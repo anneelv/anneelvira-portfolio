@@ -114,3 +114,15 @@
 .mobile-nav-active #header {
   left: 0;
 }
+
+#header {
+  position: fixed;
+  top: 0;
+  left: -260px; /* Hidden by default on mobile */
+  width: 260px;
+  height: 100vh;
+  background: #fff;
+  z-index: 9997;
+  transition: left 0.4s ease-in-out;
+  box-shadow: 2px 0 12px rgba(0, 0, 0, 0.1);
+}
