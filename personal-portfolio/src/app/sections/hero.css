@@ -59,3 +59,38 @@
 #hero .social-links a:hover {
   color: #0563bb;
 }
+
+/* MOBILE SCREEN */
+
+@media (max-width: 768px) {
+  /* HERO SECTION - Mobile Adjustments */
+  #hero {
+    padding: 100px 20px 40px 20px; /* Add some breathing room */
+    text-align: center;
+    background-position: center;
+  }
+
+  #hero h1 {
+    font-size: 4rem; /* Reduce heading size */
+    line-height: 1.2;
+  }
+
+  #hero p {
+    font-size: 1.5rem; /* Reduce paragraph size */
+  }
+
+  #hero .social-links {
+    margin-top: 20px;
+  }
+
+  #hero .social-links a {
+    font-size: 2rem; /* Smaller icons */
+    margin-right: 15px;
+  }
+
+  /* OPTIONAL: Hide or adjust background for better performance on mobile */
+  #hero {
+    background-size: cover;
+    background-attachment: scroll;
+  }
+}

@@ -1,5 +1,6 @@
 import React from "react";
 import "./resumeItem.css";
+import "animate.css/animate.min.css";
 
 export default function ResumeItem({
   item,
