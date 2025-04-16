@@ -87,7 +87,7 @@ export const resume = [
     content: [
       {
         id: 1,
-        title: "Cyber Secuirty Analyst (Part-Time)",
+        title: "Cyber Security Analyst (Part-Time)",
         period: "Jun 2024 - Oct 2024",
         brief: "Borderless CS, Melbourne, VIC",
         details: [
@@ -291,5 +291,20 @@ export const portfolioData = [
     title: "Burrito King Desktop App",
     brief: "",
     category: "others",
+  },
+];
+
+/*---------------------------------------
+SAMPLE CONTACT DATA
+---------------------------------------*/
+export const contact = [
+  {
+    id: 1,
+    details: {
+      name: "Bob",
+      email: "bob@example.com",
+      subject: "Message",
+      message: `Hello, this is Bob`,
+    },
   },
 ];

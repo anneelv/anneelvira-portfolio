@@ -1,6 +1,7 @@
 import Hero from "./sections/Hero";
 import Resume from "./sections/Resume";
 import Portfolio from "./sections/Portfolio";
+import Contact from "./sections/Contact";
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
       <main id="id">
         <Resume />
         <Portfolio />
+        <Contact />
       </main>
     </>
   );
