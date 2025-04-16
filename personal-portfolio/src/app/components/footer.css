@@ -44,7 +44,7 @@ FOOTER
   transition: 0.3s;
 }
 
-#fotoer .social-links a:hover {
+#footer .social-links a:hover {
   background: #0678e3;
   color: #fff;
   text-decoration: none;
