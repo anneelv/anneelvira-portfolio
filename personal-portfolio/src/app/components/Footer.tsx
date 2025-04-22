@@ -6,7 +6,10 @@ export default function Footer() {
     <footer id="footer">
       <div className="container">
         <h3>Anne Elvira Maria</h3>
-        <p>AAAAAAAAAAAAAAAA</p>
+        <p>
+          Cybersecurity analyst with a passion for low-level programming and
+          digital forensics.
+        </p>
         <div className="social-links">
           <a href="#" className="github">
             <i className="bx bxl-github"></i>

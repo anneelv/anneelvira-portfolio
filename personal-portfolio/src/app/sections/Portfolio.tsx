@@ -48,7 +48,7 @@ export default function Portfolio() {
       <div className="container">
         <SectionTitle
           title="Portfolio"
-          brief="AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA"
+          brief="A selection of projects I've developed to demonstrate my technical abilities and support my professional growth."
         />
 
         <div className="row">
