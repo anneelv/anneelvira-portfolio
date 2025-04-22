@@ -10,7 +10,7 @@ export default function hero() {
       <div className="container">
         <h1>Anne Elvira Maria</h1>
         <p>
-          I'm a{" "}
+          I am a{" "}
           <ReactTyped
             strings={[
               "Penetration Tester",
