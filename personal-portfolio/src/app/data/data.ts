@@ -211,7 +211,8 @@ export const portfolioData = [
       "/assets/images/portfolio/BurritoKing/login-page.png",
     ],
     title: "Burrito King Desktop App",
-    brief: "",
+    brief:
+      "This is a desktop food ordering application developed with JavaFX. It supports user account creation, order placement, and tracks each user's order history. A VIP system is included, allowing users to earn and redeem points for discounts. Key features include secure validation during account registration, VIP upgrades, and simulated card payment at checkout. The app also supports exporting order history to CSV for easy record-keeping.",
     category: "app",
   },
   {

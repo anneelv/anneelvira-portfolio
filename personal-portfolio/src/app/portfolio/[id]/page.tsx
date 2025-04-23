@@ -82,8 +82,8 @@ export default function PortfolioDetails({
                 </ul>
               </div>
               <div className="portfolio-description">
-                <h2>Example - {item.id}</h2>
-                <p>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
+                <h2>{item.title}</h2>
+                <p>{item.brief}</p>
               </div>
             </div>
           </div>
