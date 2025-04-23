@@ -14,14 +14,22 @@ export default function PortfolioItem({
   };
 }) {
   useEffect(() => {
-    new Glightbox({
-      selector: ".portfolio-lightbox",
-    });
-    new Glightbox({
-      selector: ".portfolio-details-lightbox",
-      width: "90%",
-      height: "90vh",
-    });
+    if (typeof window !== "undefined") {
+      const lightbox1 = Glightbox({
+        selector: ".portfolio-lightbox",
+      });
+
+      const lightbox2 = Glightbox({
+        selector: ".portfolio-details-lightbox",
+        width: "90%",
+        height: "90vh",
+      });
+
+      return () => {
+        lightbox1.close();
+        lightbox2.close();
+      };
+    }
   }, []);
 
   return (
