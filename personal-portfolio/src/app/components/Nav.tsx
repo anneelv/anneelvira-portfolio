@@ -20,14 +20,14 @@ export default function Nav() {
 
   const handleToggleMenu = () => {
     setOpen(!open);
-    let body: HTMLElement | any = document.querySelector("body");
+    const body: HTMLElement | any = document.querySelector("body");
     body.classList.toggle("mobile-nav-active");
   };
 
   const handleScrollTo = (section: string) => {
-    let targetEl: HTMLElement = document.querySelector("#" + section)!;
+    const targetEl: HTMLElement = document.querySelector("#" + section)!;
     if (pathname === "/") {
-      let elementPosition = targetEl.offsetTop;
+      const elementPosition = targetEl.offsetTop;
       window.scrollTo({
         top: elementPosition,
         behavior: "smooth",
@@ -39,12 +39,12 @@ export default function Nav() {
 
   const handleNavActive = () => {
     // add some space above the target section
-    let position = scroll + 200;
+    const position = scroll + 200;
     // nav add and remove class active
     setNavList(
       navList.map((nav) => {
         nav.active = false;
-        let targetSection: HTMLElement = document.querySelector(
+        const targetSection: HTMLElement = document.querySelector(
           "#" + nav.target
         )!;
 

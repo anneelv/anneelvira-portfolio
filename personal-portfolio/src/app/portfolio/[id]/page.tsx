@@ -17,10 +17,10 @@ export default function PortfolioDetails({
   params: { id: string };
 }) {
   const id = params.id;
-  const [item, setItem] = useState<any | {}>({});
+  const [item, setItem] = useState<any>({});
 
   const getPortfolioDetailsData = (id: string) => {
-    const res = fetch(`http://localhost:3000/api/portfolio/${id}`)
+    fetch(`http://localhost:3000/api/portfolio/${id}`)
       .then((res) => res.json())
       .then((data) => setItem(data))
       .catch((e) => console.log(e.message));
