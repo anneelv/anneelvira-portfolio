@@ -14,5 +14,5 @@ export async function GET(
     (item) => item.id.toString() === id
   );
 
-  return Response.json(portfolioItem);
+  return NextResponse.json(portfolioItem);
 }
