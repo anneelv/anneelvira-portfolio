@@ -4,9 +4,10 @@ import { NextRequest, NextResponse } from "next/server";
 
 export async function GET(
   request: NextRequest,
-  { params }: { params: { id: string } } //Here we are passing the number of the portfolio as a string parameter for the request
+  context: any
+  // { params }: { params: { id: string } } //Here we are passing the number of the portfolio as a string parameter for the request
 ) {
-  const { id } = params;
+  const { id } = context.params;
   // In case of using a real dataase, instead of .find (JavaScript Higher Order function) we will use 'SELECT ... FROM ...'
   const portfolioItem = portfolioData.find(
     // matching the numerical data of id acquired from Portfolio Data to String data that we want to get from the request ^
