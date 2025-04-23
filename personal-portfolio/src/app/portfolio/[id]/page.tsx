@@ -1,6 +1,7 @@
 "use client";
 
 import React, { useState, useEffect } from "react";
+import { use } from "react";
 // Swiper React Components
 import { Swiper, SwiperSlide } from "swiper/react";
 // Swiper sttyles
@@ -14,9 +15,9 @@ import "./style.css";
 export default function PortfolioDetails({
   params,
 }: {
-  params: { id: string };
+  params: Promise<{ id: string }>;
 }) {
-  const id = params.id;
+  const { id } = use(params);
   const [item, setItem] = useState<any>({});
 
   const getPortfolioDetailsData = (id: string) => {
