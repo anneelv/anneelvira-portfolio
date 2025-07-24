@@ -39,13 +39,17 @@ export default function ContactForm() {
 
     // POST request sent to contact API
     try {
-      const response = await fetch("http://localhost:3000/api/contact", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(text),
-      });
+      // previous: http://localhost:3000/api/contact
+      const response = await fetch(
+        "https://anneelvira-portfolio.vercel.app/api/contact",
+        {
+          method: "POST",
+          headers: {
+            "Content-Type": "application/json",
+          },
+          body: JSON.stringify(text),
+        }
+      );
 
       setText({ ...text, validate: "loading" });
 

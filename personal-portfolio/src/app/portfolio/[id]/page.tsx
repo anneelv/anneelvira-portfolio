@@ -21,7 +21,7 @@ export default function PortfolioDetails({
   const [item, setItem] = useState<any>({});
 
   const getPortfolioDetailsData = (id: string) => {
-    fetch(`http://localhost:3000/api/portfolio/${id}`)
+    fetch(`https://anneelvira-portfolio.vercel.app/api/portfolio/${id}`) //previous: http://localhost:3000/api/portfolio/${id}
       .then((res) => res.json())
       .then((data) => setItem(data))
       .catch((e) => console.log(e.message));
