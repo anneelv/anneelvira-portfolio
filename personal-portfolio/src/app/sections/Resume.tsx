@@ -6,7 +6,8 @@ import SectionTitle from "../components/SectionTitle";
 import ResumeItem from "../components/ResumeItem";
 
 async function getResumeData() {
-  const res = await fetch("http://localhost:3000/api/resume");
+  // const res = await fetch("http://localhost:3000/api/resume");
+  const res = await fetch("https://anneelvira-portfolio.vercel.app/api/resume");
   return res.json();
 }
 
